@@ -6,8 +6,9 @@ import {
   Optional,
   Query,
   QueryList,
-  Renderer
+  Renderer,
 } from '@angular/core';
+import { Type } from '@angular/core/index';
 import { isPresent } from '@angular/core/src/facade/lang';
 import { Instruction, Router, RouterLink } from '@angular/router-deprecated';
 
